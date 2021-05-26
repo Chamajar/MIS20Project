@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height:1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    height: 100vh;
+    
+}
+
+
+  /* Global declaration for the class container */
+  .main-content {
+    width: 100%;
+    height: 100%;
+    /*  CSS smooth scroll effect*/
+    overflow-y: scroll;  
+    scroll-behavior: smooth;
+
+  }
+
+
+
+  .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  
+    
+  }
+  
+  ul{
+    margin: 0;
+    padding:0;
+  }
+  
+  .button_1{
+    height: 38px;
+    background: blueviolet;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+  }
+/* minerals  */
+
+  /*section  #minerals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+  }  */
+/* design for mission and vision   */  
+  #dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+
+  /* header */
+  .nav-bar {
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  header{
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: gold 4px solid;
+  }
+  
+  a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+  }
+  
+  li{
+    float: left;
+    display: flex;
+    padding: 0 20px 0 20px;
+  }
+  
+ 
+  header nav {
+    float: right;
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+  
+  header .logo, header .current a{
+    color: gold;
+    font-weight: bold;
+  
+  }
+  
+  header .logo-2 {
+    color: blueviolet;
+    font-weight: bold;
+  }
+  header a:hover{
+    color: blueviolet;
+    font-weight: bold;
+  }
+  
+  .lg {
+    margin-bottom: 50px;
+  }
+  /* showcase    */
+  #showcase{
+    min-height: 400px;
+    background-color: ;
+    text-align: center;
+    color:#35424a;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #showcase h1{
+    margin-top:100;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: solid gold;
+  }
+  
+  #showcase p{
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet ;
+  }
+  
+  #newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background:#35424a;
+  }
+  
+  #newsletter h1{
+    float: left;
+    color:  gold ;
+  }
+  
+  #newsletter form{
+    float: right;
+    margin-top: 15px;
+  }
+  
+  #newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+
+section {
+  
+  
+}
+  
+  
+.gold {
+  text-align: center;
+}
+
+.Tanzanite {
+  text-align: center;
+}
+
+img {
+  padding-top: 100px;
+}
+  /*  asidebar   */
+  aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+  
+  }
+  
+  
+   article#main-col{
+    float: left;
+    width: 65%;
+  }
+  
+
+  #contact address {
+    color: black solid;
+
+  }
+  /* footer  */
+  footer{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: gold;
+    color: black bold;
+    text-align: center;
+    width: 100%;
+  }
+  
